@@ -1,13 +1,8 @@
-.kirikeeled {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 40px;
-    text-align: center;
+.pealkiri {
     font-size: 30px;
 }
-.tekstkeeled {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.pealkiri2 {
     margin-top: 15px;
-    text-align: center;
     font-size: 15px;
 }
 .nuppkeeled {
