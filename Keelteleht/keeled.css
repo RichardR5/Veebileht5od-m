@@ -1,0 +1,60 @@
+.pealkiri {
+    font-size: 30px;
+}
+.pealkiri2 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.nuppkeeled {
+    padding: 40px 60px;
+    background-color: rgb(1,2,3, 0.0);
+    color: black;
+    margin-top: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: background-image 0.9s ease-in-out;
+}
+.nuppkeeled.py:hover {
+    background-image: url("python.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 90px;
+    color: rgb(1,2,3, 0.0);
+    
+}
+.nuppkeeled.html:hover {
+    background-image: url("html.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 90px;
+    color: rgb(1,2,3, 0.0);
+}
+.nuppkeeled.java:hover {
+    background-image: url("java.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 90px;
+    color: rgb(1,2,3, 0.0)
+    
+}
+.nuppkeeled.sql:hover {
+    background-image: url("sql.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 90px;
+    color: rgb(1,2,3, 0.0);
+    
+}
+.keskel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
