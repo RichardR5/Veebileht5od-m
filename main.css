@@ -5,34 +5,75 @@
     font-size: 15px;
 }
 
-.pealkiri{
-
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.sissejuhatus{
-
+.pealkiri {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.tutvustus{
-
+.sissejuhatus,
+.tutvustus,
+.kasutus,
+.tasuta,
+.tasulised,
+.muud_kursused {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.kasutus{
-
+.tutvustus p,
+.kasutus p {
+    line-height: 1.6;
 }
 
-.tasuta{
-
+.tasuta,
+.tasulised,
+.muud_kursused {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    vertical-align: top;
 }
 
-.tasulised{
-
+.tasuta header,
+.tasulised header,
+.muud_kursused header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
 }
 
-.muud_kursused{
-
+.tasuta ul,
+.tasulised ul,
+.muud_kursused ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.video{
-    
+.tasuta li,
+.tasulised li,
+.muud_kursused li {
+    margin-bottom: 10px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video iframe {
+    border: none;
+    max-width: 100%;
 }
