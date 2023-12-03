@@ -1,0 +1,10 @@
+.tutvustus header,
+.kasutus header,
+.tasuta header,
+.tasulised header,
+.muud_kursused header {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
