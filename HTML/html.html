@@ -1,48 +1,72 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="et">
 <head>
-    <link rel="stylesheet" href="..\main.css">
-    <link rel="stylesheet" href="SQL.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="html.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
 </head>
 <body>
     <div class="pealkiri">
-        <h1>HTML - veebilehed</h1>
+        <h1><img src="../Keelteleht/html.png" alt="html pilt"></h1>
     </div>
     <div class="sissejuhatus">
         <ul>
-            <li><strong>Keerukus: </strong> algajatele</li>
-            <li><strong>Populaarsed raamistikud: </strong>SQLAlchemy, Hibernate</li>
-            <li><strong>Kasutus: </strong> <i>Back-end</i> andmebaaside haldus</li>
-            <li><strong>Populaarsus: </strong><a href="https://pypl.github.io/PYPL.html" target="_blank" rel="noopener">#10</a>&nbsp;on Tiobe Index for March 2021, Loved by 
-            <a href="https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved" target="_blank" rel="noopener">56.6%</a> 
-            of StackExchange developers in 2020.</li>
+            <li><strong>Keerukus: </strong> algaja sõbralik</li>
+            <li><strong>Kasutus: </strong> Veebilehtede struktuuri loomine</li>
+            <li><strong>Populaarsus: </strong>Aluseks kõigile veebilehtedele</li>
         </ul>
     </div>
-    <div class="tutvustus">
-        <p>Tutvustus</p>
-    </div>
-    <div class="kasutus">
-        <p><strong>Mille jaoks seda keelt kasutatakse </strong> - peale selle, et...</p>
-    </div>
-    <div class="tasuta">
-        <ul>
-            <li><strong>Tasuta kursused </strong></li>
-        </ul>
-    </div>
-    <div class="tasulised">
-        <ul>
-            <li><strong>Tasulised kursused </strong></li>
-        </ul>
-    </div>
-    <div class="muud kursused">
-        <ul>
-            <li><strong>Muud materjalid</strong></li>
-        </ul> 
-    </div>
-    <div class="video">
-        <p> lahe video</p>
+    <div class="container">
+        <div class="tutvustus">
+            <header><strong>Tutvustus</strong></header>
+            <p>HTML ehk HyperText Markup Language on veebilehtede kujundamise nurgakivi. Seda kasutatakse veebilehtede ja rakenduste jaotiste, lõikude, pealkirjade, linkide ja plokktsitaatide loomiseks ja struktureerimiseks. HTML ei ole programmeerimiskeel nagu Python või Java, vaid märgistuskeel, mis määratleb teie sisu struktuuri.</p>
+            <p>HTML koosneb elementidest, mida kasutatakse sisu erinevate osade ümbermähkimiseks või sulgemiseks, et see näeks välja või toimiks teatud viisil. Sulgevad sildid võivad muuta sõna või pildi hüperlingiks, rõhutada sõnu, muuta fonti suuremaks või väiksemaks jne.</p>
+            <p>HTML elemendid on HTML lehtede ehitusplokid. HTML-i abil saab veebilehtedele manustada pilte ja objekte ning luua interaktiivseid vorme. See võimaldab luua struktureeritud dokumente, märkides teksti struktuurisemantikat, nagu pealkirjad, lõigud, loendid, lingid, tsitaadid ja muud üksused.</p>
+        </div>
+        <div class="kasutus">
+            <header><strong>Kasutus</strong></header>
+            <p>HTML-i kasutatakse veebilehe põhistruktuuri ja sisu loomiseks:</p>
+            <ul>
+                <li>Veebilehe struktuur: HTML-i abil struktureeritakse sisu veebis. Tüüpiline HTML-leht sisaldab dokumendi tüübi deklaratsiooni, pea- ja kehasektsioone, pealkirju, lõike, linke, pilte, loendeid ja muid elemente.</li>
+                <li>Veebidokumendid: HTML-i kasutatakse veebibrauserites kuvatavate dokumentide loomiseks. Iga internetis nähtav veebileht on kirjutatud ühe või teise HTML-i versiooni abil.</li>
+                <li>Veebirakendused: Peale lihtsate veebilehtede kasutatakse HTML-i ka keerukamate veebirakenduste loomise alusena. See töötab koos keeltega nagu CSS ja JavaScript, et luua interaktiivseid ja funktsionaalseid veebirakendusi.</li>
+                <li>Integreerimine teiste keeltega: HTML-i kasutatakse sageli koos CSS-i (Cascading Style Sheets) ja JavaScriptiga. CSS-i abil kontrollitakse paigutust ja stiili, samas kui JavaScriptiga kontrollitakse erinevate elementide käitumist.</li>
+                <li>Reageeriv disain: HTML5 tulekuga on tutvustatud rohkem funktsioone keerukate rakenduste ja reageeriva disaini jaoks. See tähendab, et veebisaite saab kujundada nii, et need näevad head välja nii lauaarvutites kui ka mobiilseadmetes.</li>
+            </ul>
+        </div>
+        <div>
+            <div class="tasuta">
+                <header><strong>Tasuta kursused </strong></header>
+                <ul>
+                    <li><a href="https://www.udemy.com/topic/html/" target="_blank" rel="noopener noreferrer">Udemy tasuta HTML kursused</a></li>
+                    <li><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/html" target="_blank" rel="noopener noreferrer">Great Learning HTML kursused</a></li>
+                    <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank" rel="noopener noreferrer">Codecademy HTML kursus</a></li>
+                    <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools HTML õpetus</a></li>
+                </ul>
+            </div>
+            <div class="tasulised">
+                <header><strong>Tasulised kursused </strong></header>
+                <ul>
+                    <li><a href="https://www.coursera.org/courses?query=html" target="_blank" rel="noopener noreferrer">Coursera HTML kursused</a></li>
+                    <li><a href="https://hackr.io/tutorials/learn-html-5" target="_blank" rel="noopener noreferrer">Hackr HTML kursused</a></li>
+                    <li><a href="https://www.udemy.com/course/web-development-wizardry/" target="_blank" rel="noopener noreferrer">HTML ja CSS kursus algajatele</a></li>
+                </ul>
+            </div>
+            <div class="muud_kursused">
+                <header><strong>Muud materjalid </strong></header>
+                <ul>
+                    <li><a href="https://www.amazon.com/Best-Sellers-HTML-Programming/zgbs/digital-text/16977270011" target="_blank" rel="noopener noreferrer">HTML raamatud</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg" target="_blank" rel="noopener noreferrer">HTML videokursus</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="800" height="450"
+            src="https://www.youtube.com/embed/pQN-pnXPaVg?autoplay=1&mute=1&loop=1">
+            </iframe>
+        </div>
     </div>
 </body>
 </html>
