@@ -1,8 +1,9 @@
 .tekst {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 40px;
+    margin-top: 0px;
     text-align: center;
     font-size: 15px;
+    font-weight: bold;
 }
 
 body {
@@ -18,6 +19,17 @@ body {
     padding: 20px;
 }
 
+.pealkiri img {
+    height: 90px;
+    vertical-align: middle;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+
 .sissejuhatus,
 .tutvustus,
 .kasutus,
@@ -32,29 +44,49 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+.sissejuhatus ul,
 .tutvustus p,
 .kasutus p {
     line-height: 1.6;
+}
+
+.tutvustus {
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-column: 1 / 2;
+}
+
+.kasutus {
+    grid-column: 2 / 3;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.tutvustus header,
+.kasutus header,
+.tasuta header,
+.tasulised header,
+.muud_kursused header {
+    background-color: rgb(40, 109, 155);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .tasuta,
 .tasulised,
 .muud_kursused {
     display: inline-block;
-    width: calc(33.33% - 20px);
-    margin-right: 20px;
-    vertical-align: top;
-}
-
-.tasuta header,
-.tasulised header,
-.muud_kursused header {
-    background-color: #3498db;
-    color: white;
+    width: 26%;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: text-top;
     padding: 10px;
-    border-radius: 4px;
+    word-wrap: break-word;
 }
 
+.sissejuhatus ul,
 .tasuta ul,
 .tasulised ul,
 .muud_kursused ul {
@@ -62,6 +94,7 @@ body {
     padding: 0;
 }
 
+.kasutus li,
 .tasuta li,
 .tasulised li,
 .muud_kursused li {
@@ -71,6 +104,7 @@ body {
 .video {
     text-align: center;
     margin-top: 20px;
+    grid-column: 2 / 3;
 }
 
 .video iframe {
