@@ -1,9 +1,15 @@
 .tutvustus header,
-.kasutus header,
 .tasuta header,
-.tasulised header,
 .muud_kursused header {
     background-color: rgb(0, 123, 200);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.kasutus header,
+.tasulised header {
+    background-color: rgb(251, 214, 75);
     color: white;
     padding: 10px;
     border-radius: 4px;
